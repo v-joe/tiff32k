@@ -133,8 +133,8 @@ int main(int argc, char* argv[])
             "\n\nI will not buy this record, it is scratched.\n"
             "It's certainly uncontaminated by cheese.\n\n");
 
-    for(uint32 row = 0; row < h; row++) {
-        /* read a row from PNG */
+        for(uint32 row = 0; row < h; row++) {
+            /* read a row from PNG */
             png_read_row(png_p, ibuf, NULL);
             /* convert 24bit RGB to 32k colors */
             for(size_t i=0;i<w;i++) {
