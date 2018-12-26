@@ -8,6 +8,7 @@ Conversion utilities between PNG and 32k color space TIFF commonly used on the [
 
 ## Build dependencies
 - GNU make (run `make` to build the conversion utilities)
+- C compiler
 - [libtiff-4](https://download.osgeo.org/libtiff/)
 - [libpng](http://www.libpng.org/pub/png/libpng.html)
 - [zlib](https://zlib.net/)
