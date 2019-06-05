@@ -1,6 +1,7 @@
 /***************************************
 Convert 32k color TIFF file to PNG file
 License: GPLv3
+https://github.com/v-joe/tiff32k
 ***************************************/
 
 #include <tiffio.h>
